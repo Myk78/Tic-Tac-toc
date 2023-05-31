@@ -4,6 +4,7 @@ let audioturn = new Audio ('ting.mp3');
 let gameover = new Audio('gameover.mp3');
 let Turn ="X";
 let thisgame = false;
+let reset = document.getElementById('result')
 
 
 // Function to change the turn
@@ -53,4 +54,16 @@ Array.from(box).forEach(element =>{
             
         }
     })
+})
+
+// Write a logic for reset btn
+reset.addEventListener('click',()=>{
+    let boxtext = document.querySelectorAll('.boxtext');
+    Array.from(boxtext).forEach(element=>{
+        element.innerText=""
+        Turn ="X"
+        thisgame=false;
+        document.getElementsByClassName('info')[0].innerText='Turn for'+Turn;
+        document.querySelector('.imgif').getElementsByTagName('img')[0].style.width='0px';
+    });
 })

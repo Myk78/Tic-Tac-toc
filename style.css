@@ -38,6 +38,10 @@ nav ul li{
     grid-template-columns: repeat(3,10vw);
     font-family: 'Roboto Condensed', sans-serif;
 }
+.gameinfo{
+    font-size: 20px;
+    padding-top: 157px;
+}
 
 .box{
     border: solid black;
@@ -81,6 +85,9 @@ nav ul li{
      color: black;
      font-family:'Cherry Bomb One', 'Baloo Bhaina 2', cursive;
      /* font-family: 'Cherry Bomb One'; */
+     /* cursor: pointer; */
 }
+
+
 
 
