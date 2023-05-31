@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto+Condensed:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Cherry+Bomb+One&family=Roboto+Condensed:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -27,7 +27,7 @@ nav ul li{
 }
 
 .gamecontainer{
-    background-color: saddlebrown;
+    background-color: rgb(207, 200, 195);
     justify-content: center;
     display:flex;
     margin-top: 50px;
@@ -48,15 +48,16 @@ nav ul li{
     align-items: center;
 }
 .box:hover{
-    background-color: rgb(199, 199, 139);
+    background-color: rgb(112, 112, 110);
 }
 .gameinfo{
-    font-family: 'Baloo Bhaina 2', cursive;
+    font-family:'Cherry Bomb One', 'Baloo Bhaina 2', cursive;
     padding: 0 13vw;
     cursor: pointer;   
 }
-.imgif{
-    display: none;
+.imgif img{
+    width: 0;
+    transition: width 1s ease-in;
 }
 
 /* utiliy class */
@@ -72,4 +73,14 @@ nav ul li{
 .bb-0{
     border-bottom: 0;
 }
+#result{
+    margin: 0px 24px;
+    padding: 3px 20px;
+    border-radius: 9px;
+    background: #c5b6c5;
+     color: black;
+     font-family:'Cherry Bomb One', 'Baloo Bhaina 2', cursive;
+     /* font-family: 'Cherry Bomb One'; */
+}
+
 
