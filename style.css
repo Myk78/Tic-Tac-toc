@@ -40,7 +40,6 @@ nav ul li{
 }
 .gameinfo{
     font-size: 20px;
-    padding-top: 157px;
 }
 
 .box{
@@ -87,6 +86,29 @@ nav ul li{
      /* font-family: 'Cherry Bomb One'; */
      /* cursor: pointer; */
 }
+@media screen and (max-width: 530px) {
+    .gamecontainer {
+        flex-wrap: wrap;
+      background-color: rgb(203, 161, 231);
+      padding-bottom: 40px;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: repeat(3,19vw);
+        grid-template-columns: repeat(3,19vw);
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+     .info{
+        margin-top: 20px;
+    }
+    .gameinfo{
+        margin-top: 35px;
+    }
+    .imgif{
+        margin-top: 50px;
+    }
+  }
+
 
 
 
