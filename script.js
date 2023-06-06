@@ -33,6 +33,7 @@ const checkwin =()=>{
             thisgame=true
             // document.querySelector('.imgif').getElementsByTagName('img').style.width='200px';
             document.querySelector('.imgif').getElementsByTagName('img')[0].style.width='200px'
+            document.querySelector('.line').style.transform = `transform rotate(90deg) translate($(e[1])px, -190px);`
         } 
     })
 

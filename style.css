@@ -49,6 +49,14 @@ nav ul li{
     justify-content: center;
     display: flex;
     align-items: center;
+    position: relative;
+}
+.line{
+    width: 27vw;
+    height: 3px;
+    position: absolute;
+    background-color: blueviolet;
+
 }
 .box:hover{
     background-color: rgb(112, 112, 110);
