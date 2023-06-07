@@ -40,22 +40,7 @@ const checkwin =()=>{
 }
 
 //  Game logic
-let box = document.getElementsByClassName('box');
-Array.from(box).forEach(element =>{
-    let boxtext = element.querySelector('.boxtext');
-    element.addEventListener('click', ()=>{
-        if(boxtext.innerText === ''){
-            boxtext.innerText = Turn;
-            Turn=changeTurn();
-            audioturn.play();
-            checkwin();
-            if(!thisgame){
-                document.getElementsByClassName('info')[0].innerText = 'Turn for' +Turn;
-            }
-            
-        }
-    })
-})
+
 
 // Write a logic for reset btn
 reset.addEventListener('click',()=>{
